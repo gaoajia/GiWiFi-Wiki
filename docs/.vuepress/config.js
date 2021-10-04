@@ -135,7 +135,11 @@ module.exports = {
         options: {
           el: '#valine-vuepress-comment',
           appId: 'fJuqMKbQ9hCcrEbziM7XAh7c-gzGzoHsz',
-          appKey: 'YXAWBlHzen7IruC7qcyWGczA'
+          appKey: 'YXAWBlHzen7IruC7qcyWGczA',
+          pageSize: '10',//分页
+          visitor: true,//文章访问统计
+          recordIP: true,//记录评论者IP
+
         }
       }
     ],
