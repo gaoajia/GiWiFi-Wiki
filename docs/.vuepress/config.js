@@ -128,6 +128,19 @@ module.exports = {
     }],
 
     [
+      'vuepress-plugin-comment', //评论系统
+      {
+        choosen: 'valine', 
+        // options选项中的所有参数，会传给Valine的配置
+        options: {
+          el: '#valine-vuepress-comment',
+          appId: 'fJuqMKbQ9hCcrEbziM7XAh7c-gzGzoHsz',
+          appKey: 'YXAWBlHzen7IruC7qcyWGczA'
+        }
+      }
+    ],
+
+    [
       'vuepress-plugin-baidu-tongji', // 百度统计
       {
         hm: 'b905f007be733dade08028bcda0b568c'
