@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: https://image.gaoajia.com/2021/09/25/135503571a730.jpg
+heroImage: https://image.gaoajia.com/2021/10/04/4dff1f5801bba.png
 heroText: GiWiFi使用文档
 tagline: 🚀一个非官方GWiFi校园网使用帮助文档
 actionText: 快速开始 →
