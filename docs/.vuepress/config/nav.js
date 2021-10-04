@@ -18,8 +18,8 @@ module.exports = [
   },
   {
     text: '故障', link: '/pages/a20ce8/', items: [
-      { text: '待更', link: '/pages/a20ce8/' },
-      { text: '待更', link: '/pages/f14bdb/' },
+      { text: '账号问题', link: '/pages/a20ce8/' },
+      { text: '出现报错', link: '/pages/f14bdb/' },
     ]
   },
   { text: '待更', link: '/pages/db78e2/' },
