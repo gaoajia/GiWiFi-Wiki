@@ -23,7 +23,14 @@ module.exports = [
     ]
   },
   { text: '待更', link: '/pages/db78e2/' },
-  { text: '待更', link: '/pages/5d571c/' },
+
   { text: '问答', link: '/pages/9cc27d/' },
   { text: '支持', link: '/pages/1b12ed/' },
-  { text: '关于', link: '/pages/5dfce5/' }]
+  { text: '关于', link: '/pages/5dfce5/' }, 
+  { 
+    text: 'Languages',  items: [
+      { text: '简体中文', link: '/'},
+      { text: 'English', link: '/pages/c791f0/'},
+    ]
+  }
+]
