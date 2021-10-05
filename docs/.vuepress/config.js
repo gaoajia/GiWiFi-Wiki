@@ -113,7 +113,7 @@ module.exports = {
     //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
     // }],
 
-    ["vuepress-plugin-simple-analytics"],
+    ['vuepress-plugin-simple-analytics'],
     ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
       thirdparty: [ // 可选，默认 []
         {
@@ -140,11 +140,7 @@ module.exports = {
         options: {
           el: '#valine-vuepress-comment',
           appId: 'fJuqMKbQ9hCcrEbziM7XAh7c-gzGzoHsz',
-          appKey: 'YXAWBlHzen7IruC7qcyWGczA',
-          pageSize: '10',//分页
-          visitor: true,//文章访问统计
-          recordIP: true,//记录评论者IP
-
+          appKey: 'YXAWBlHzen7IruC7qcyWGczA'
         }
       }
     ],
