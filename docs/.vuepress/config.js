@@ -29,6 +29,10 @@ module.exports = {
   theme: 'vdoing', // 使用依赖包主题
   // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
   themeConfig: { // 主题配置
+    algolia: {
+      apiKey: '25626fae796133dc1e734c6bcaaeac3c',
+      indexName: 'docsearch'
+    },
     nav,
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: 'https://image.gaoajia.com/2021/10/04/4dff1f5801bba.png', // 导航栏logo
@@ -109,6 +113,7 @@ module.exports = {
     //   excludeClassName: 'theme-vdoing-content' // 要排除元素的class, 默认空''
     // }],
 
+    ["vuepress-plugin-simple-analytics"],
     ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
       thirdparty: [ // 可选，默认 []
         {

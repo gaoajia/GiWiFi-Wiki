@@ -20,10 +20,9 @@ module.exports = [
     text: '故障', link: '/pages/a20ce8/', items: [
       { text: '账号问题', link: '/pages/a20ce8/' },
       { text: '出现报错', link: '/pages/f14bdb/' },
+      { text: '认证出错', link: '/pages/22640f/' },
     ]
   },
-  { text: '待更', link: '/pages/db78e2/' },
-
   { text: '问答', link: '/pages/9cc27d/' },
   { text: '支持', link: '/pages/1b12ed/' },
   { text: '关于', link: '/pages/5dfce5/' }, 
