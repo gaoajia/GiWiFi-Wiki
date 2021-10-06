@@ -4,7 +4,7 @@ heroImage: https://image.gaoajia.com/2021/10/04/4dff1f5801bba.png
 heroText: GiWiFi使用文档
 tagline: 🚀一个非官方GWiFi校园网使用帮助文档
 actionText: 快速开始 →
-actionLink: /pages/52d5c3/
+actionLink: /pages/3e7666/
 bannerBg: none # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
 
 features: # 可选的
