@@ -16,3 +16,8 @@ urls.txt
 
 # mac
 .DS_Store
+
+# 本地主题
+theme-vdoing
+
+docs/.vuepress/templates
