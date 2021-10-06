@@ -29,10 +29,10 @@ git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 # deploy to coding pages
 echo 'giwifi.iluoli.ren' > CNAME  # 自定义域名
 
-if [ -z "$CODING_TOKEN" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
+if [ -z "$OsWxVAVmRW" ]; then  # -z 字符串 长度为0则为true；$CODING_TOKEN来自于github仓库`Settings/Secrets`设置的私密环境变量
    codingUrl=git@e.coding.net:cloudbase-100012776940/giwifi-wiki/GiWiFi-Wiki.git
 else
-   codingUrl=https://cloudbase-100012776940:${CODING_TOKEN}@e.coding.net/cloudbase-100012776940/giwifi-wiki/GiWiFi-Wiki.git
+   codingUrl=https://cloudbase-100012776940:${OsWxVAVmRW}@e.coding.net/cloudbase-100012776940/giwifi-wiki/GiWiFi-Wiki.git
 fi
 git add -A
 git commit -m "${msg}"
