@@ -17,13 +17,14 @@ module.exports = {
     ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
     ['link', { rel: 'apple-touch-icon', href: '/img/general-128-128.png' }],
 
-    //[
-    //  'script',
-    //  {
-    //    'data-ad-client': 'ca-pub-7828333725993554',
-    //    async: 'async',
-    // /   src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-    //  },
+    [
+      'script',
+      {
+        'data-ad-client': 'ca-pub-209678727289192030',
+        async: 'async',
+       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+      },
+    ]
     ], // 网站关联Google AdSense 与 html格式广告支持
 
     // 以下是vuepress-plugin-demo-block插件所需依赖
