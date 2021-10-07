@@ -7,9 +7,16 @@ module.exports = {
   description: '一个非官方GWiFi校园网使用帮助文档',
   base, // '/<仓库名>/'， 默认'/'
   head: [ // 注入到页面<head> 中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
-    ['link', { rel: 'icon', href: '/img/favicon.ico' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'icon', href: '/img/general-64-64.png' }], //favicons，资源放在public文件夹
+    ['link', { rel: 'manifest', href: '/manifest.json' }],
     ['meta', { name: 'keywords', content: 'vuepress,theme,blog,vdoing'}],
     ['meta', { name: 'theme-color', content: '#11a8cd'}], // 移动浏览器主题颜色
+    ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
+    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'msapplication-TileImage', content: '/img/general-128-128.png' }],
+    ['meta', { name: 'msapplication-TileColor', content: '#000000' }],
+    ['link', { rel: 'apple-touch-icon', href: '/img/general-128-128.png' }],
+
     //[
     //  'script',
     //  {
@@ -114,6 +121,14 @@ module.exports = {
     // }],
 
     ['vuepress-plugin-simple-analytics'],
+    ['@vuepress/plugin-pwa' , {
+      serviceWorker: true,
+      updatePopup: {
+        message: "发现新的功能可用",
+        buttonText: "刷新"
+      }
+    }
+    ],
     ['thirdparty-search', { // 可以添加第三方搜索链接的搜索框（原官方搜索框的参数仍可用）
       thirdparty: [ // 可选，默认 []
         {
