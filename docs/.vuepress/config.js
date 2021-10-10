@@ -125,7 +125,7 @@ module.exports = {
     ['@vuepress/plugin-pwa' , {
       serviceWorker: true,
       updatePopup: {
-        message: "发现新的功能可用",
+        message: "发现文档有更新",
         buttonText: "刷新"
       }
     }
