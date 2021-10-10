@@ -147,6 +147,12 @@ module.exports = {
         }
       ]
     }],
+    [
+      '@vuepress/google-analytics',
+      {
+        'ga': 'UA-209678727-1' // UA-00000000-0
+      }
+    ],
 
     [
       'vuepress-plugin-comment', //评论系统
