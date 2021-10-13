@@ -23,8 +23,8 @@ module.exports = {
   //   `<!-- 纵向自适应 -->
   //   <ins class="adsbygoogle"
   //       style="display:block"
-  //       data-ad-client="ca-pub-7828333725993554"
-  //       data-ad-slot="7802654582"
+  //       data-ad-client="ca-pub-4298443440776840"
+  //       data-ad-slot="3091641232"
   //       data-ad-format="auto"
   //       data-full-width-responsive="true"></ins>
   //   <script>
@@ -34,8 +34,8 @@ module.exports = {
   //   `<!-- 100% * 150px (可正常显示)-->
   //   <ins class="adsbygoogle"
   //         style="display:inline-block;width:100%;max-height:150px"
-  //         data-ad-client="ca-pub-7828333725993554"
-  //         data-ad-slot="6625304284"></ins>
+  //         data-ad-client="ca-pub-4298443440776840"
+  //         data-ad-slot="3091641232"></ins>
   //     <script>
   //         (adsbygoogle = window.adsbygoogle || []).push({});
   //     </script>`,
@@ -43,8 +43,8 @@ module.exports = {
     `<!-- 正方形 -->
       <ins class="adsbygoogle"
           style="display:block"
-          data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="3508773082"
+          data-ad-client="ca-pub-4298443440776840"
+          data-ad-slot="3091641232"
           data-ad-format="auto"
           data-full-width-responsive="true"></ins>
       <script>
@@ -54,8 +54,8 @@ module.exports = {
   //   `<!-- 100% * max-120px (暂未看到效果)-->
   //    <ins class="adsbygoogle"
   //         style="display:inline-block;width:100%;max-height:120px"
-  //         data-ad-client="ca-pub-7828333725993554"
-  //         data-ad-slot="6625304284"></ins>
+  //         data-ad-client="ca-pub-4298443440776840"
+  //         data-ad-slot="3091641232"></ins>
   //     <script>
   //         (adsbygoogle = window.adsbygoogle || []).push({});
   //     </script>`,
@@ -64,8 +64,8 @@ module.exports = {
     `<!-- 横向自适应 -->
       <ins class="adsbygoogle"
           style="display:block"
-          data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="6620245489"
+          data-ad-client="ca-pub-4298443440776840"
+          data-ad-slot="3091641232"
           data-ad-format="auto"
           data-full-width-responsive="true"></ins>
       <script>
@@ -76,8 +76,8 @@ module.exports = {
   //   `<!-- 固定200*200px -->
   //     <ins class="adsbygoogle"
   //         style="display:inline-block;width:200px;height:200px"
-  //         data-ad-client="ca-pub-7828333725993554"
-  //         data-ad-slot="6625304284"></ins>
+  //         data-ad-client="ca-pub-4298443440776840"
+  //         data-ad-slot="3091641232"></ins>
   //     <script>
   //         (adsbygoogle = window.adsbygoogle || []).push({});
   //     </script>`,
@@ -85,8 +85,8 @@ module.exports = {
      `<!-- 固定160*160px -->
       <ins class="adsbygoogle"
           style="display:inline-block;width:160px;height:160px"
-          data-ad-client="ca-pub-7828333725993554"
-          data-ad-slot="8377369658"></ins>
+          data-ad-client="ca-pub-4298443440776840"
+          data-ad-slot="3091641232"></ins>
       <script>
           (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
