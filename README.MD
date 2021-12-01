@@ -10,7 +10,6 @@
 - 文档难免有错误和过时的地方，欢迎给予斧正！
 - 语句
 
-
 ## 许可证
 [MIT](https://github.com/gaoajia/GiWiFi-Wiki/blob/master/LICENSE)
 
