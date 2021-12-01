@@ -10,7 +10,7 @@ module.exports = [
       {
         text: '相关文章', items: [
           { text: 'WiFi接入认证过程简析', link: '/pages/dd027d/' },
-          { text: '待更', link: '/pages/2b8e22/' },
+          { text: '笔者在使用中的一些问题', link: '/pages/3a4bef/' },
           { text: '待更', link: '/pages/0fc1d2/' },
         ]
       }
